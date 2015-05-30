@@ -631,3 +631,13 @@ Document.prototype.caretRangeFromPoint = function (x, y) {"use strict"; };
  * @return {undefined}
  */
 Element.prototype.detachEvent = function(event, func) { "use strict"; };
+/**
+ * @param {!Document} dom
+ * @return {undefined}
+ */
+XSLTProcessor.prototype.importStylesheet = function (dom) {"use strict"; };
+/**
+ * @param {!Node} dom
+ * @return {Document}
+ */
+XSLTProcessor.prototype.transformToDocument = function (dom) {"use strict"; };
